@@ -1,0 +1,168 @@
+
+@media screen and (max-width:991px) {
+
+    h3 {
+        font-size: 1.2rem;
+    }
+
+    .nav-toggle {
+        display: block;
+        margin-right: 20px;
+    }
+
+    .main-nav {
+        overflow: initial;
+    }
+
+    .nav-links {
+        /* display: none; */
+        position: absolute;
+        background-color: white;
+        /* left: 0; */
+        left: -100%;
+        top: 100%;
+        width: 100%;
+        padding-block: 20px;
+        transition: 0.2s ease-in-out;
+    }
+
+    .nav-links.active{
+        left: 0;
+    }
+
+    .nav-links ul {
+        flex-direction: column;
+    }
+
+    .examples-area {
+        gap: 20px;
+    }
+
+    .examples-card {
+        width: calc(50% - 10px);
+        height: 180px;
+    }
+
+    .cta-section {
+        padding-block: 80px;
+    }
+
+    .mid-section{
+        padding: 50px var(--padding-inline-section) 60px;
+       }
+   
+
+}
+
+@media screen and (max-width:768px) {
+    .primary-button {
+        width: 100%;
+    }
+
+    .header-section {
+        flex-direction: column-reverse;
+    }
+
+    .header-left {
+        max-width: 100vh;
+        text-align: center;
+    }
+
+    .features-card {
+        min-width: calc(50% - 10px);
+    }
+
+    .big-features-container,
+    #second-big-feature {
+        flex-direction: column;
+    }
+
+    #second-mid-feature{
+        flex-direction: column-reverse;
+        /* max-width: 100%; */
+    }
+    
+
+    .footer-container {
+        flex-direction: column;
+        gap: 40px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .link-column {
+        align-items: stretch;
+    }
+    #pic{
+        width: 100%;
+    }
+    .features-section{
+        background-image: none;
+       }
+}
+
+@media screen and (max-width:479px) {
+
+    :root {
+        --padding-inline-section: 10px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    .features-card {
+        min-width: 100%;
+    }
+
+    .examples-card {
+        width: 100%;
+    }
+    /* #second-mid-feature{
+        flex-direction: column-reverse;
+        max-width: 100%;
+    } */
+
+    .no-problem{
+        text-align: center;
+    }
+    .box1{
+        flex-direction: column;
+        justify-content: start;
+        align-items: flex-start;
+       /* margin-top: 40px; */
+       
+    }
+    #sub{
+        position: relative;
+        bottom: 30px;
+       
+    }
+    .e{
+        gap: 20px;
+    }
+    .subfooter-container{
+        flex-direction: column;
+        /* justify-content: flex-start; */
+        align-items: center;
+    }
+   .facebook{
+    flex-direction: row;
+
+   }
+
+   
+
+}
